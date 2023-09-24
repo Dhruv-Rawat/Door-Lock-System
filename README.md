@@ -3,13 +3,13 @@
 This is an Arduino-based RFID Door Lock System project that allows you to control access to a door using RFID cards. It is implemented in C++ and includes functionality for managing an LCD display, RFID cards, LEDs, a buzzer, and a relay for locking/unlocking the door.
 
 <h2> Components Used </h2>
-Arduino board (e.g., Arduino Uno)
-MFRC522 RFID reader module
-LiquidCrystal_I2C display module
-LEDs (Green and Red)
-Buzzer
-Relay module
-Push-button switch
+Arduino board (e.g., Arduino Uno)<br>
+MFRC522 RFID reader module<br>
+LiquidCrystal_I2C display module<br>
+LEDs (Green and Red)<br>
+Buzzer<br>
+Relay module<br>
+Push-button switch<br>
 RFID cards/tags
 
 <h2> Installation </h2>
