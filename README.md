@@ -44,11 +44,13 @@ If an unauthorized RFID card/tag is detected, the door will remain locked, the r
 You can manually unlock the door by pressing the push-button switch.
 
 <h2> Configuration </h2>
+<p>
 You can configure the following parameters in the DoorLockSystem.ino sketch:
 
-SS_PIN and RST_PIN: Define the pins used for the RFID reader module.
-LED_G and LED_R: Define the pins for the green and red LEDs.
-BUZZER: Define the pin for the buzzer.
-RELAY: Define the pin for the relay.
-Btn: Define the pin for the push-button switch.
+SS_PIN and RST_PIN: Define the pins used for the RFID reader module.<br>
+LED_G and LED_R: Define the pins for the green and red LEDs.<br>
+BUZZER: Define the pin for the buzzer.<br>
+RELAY: Define the pin for the relay.<br>
+Btn: Define the pin for the push-button switch.<br>
 content.substring(1): Change the UID value to match the RFID card/tag that should be granted access.
+</p>
