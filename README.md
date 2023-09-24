@@ -1,4 +1,4 @@
-<h3> Door Lock System </h3>
+<h1> Door Lock System </h1>
 
 This is an Arduino-based RFID Door Lock System project that allows you to control access to a door using RFID cards. It is implemented in C++ and includes functionality for managing an LCD display, RFID cards, LEDs, a buzzer, and a relay for locking/unlocking the door.
 
