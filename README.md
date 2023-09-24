@@ -13,7 +13,7 @@ Push-button switch<br>
 RFID cards/tags
 
 <h2> Installation </h2>
-Clone or download this repository to your local machine.
+Clone or download this repository to your local machine.<br>
 
 Open the Arduino IDE on your computer.
 
@@ -21,8 +21,8 @@ Connect your Arduino board to your computer using a USB cable.
 
 Install the necessary libraries:
 
-MFRC522 library: You can install this library via the Arduino Library Manager.
-LiquidCrystal_I2C library: You can install this library via the Arduino Library Manager.
+<b>MFRC522 library:</b> You can install this library via the Arduino Library Manager.
+<b>LiquidCrystal_I2C library:</b> You can install this library via the Arduino Library Manager.
 
 Open the DoorLockSystem.ino sketch in the Arduino IDE.
 
@@ -47,10 +47,10 @@ You can manually unlock the door by pressing the push-button switch.
 <p>
 You can configure the following parameters in the DoorLockSystem.ino sketch:
 
-SS_PIN and RST_PIN: Define the pins used for the RFID reader module.<br>
-LED_G and LED_R: Define the pins for the green and red LEDs.<br>
-BUZZER: Define the pin for the buzzer.<br>
-RELAY: Define the pin for the relay.<br>
-Btn: Define the pin for the push-button switch.<br>
-content.substring(1): Change the UID value to match the RFID card/tag that should be granted access.
+<b>SS_PIN</b> and <b>RST_PIN</b>: Define the pins used for the RFID reader module.<br>
+<b>LED_G</b> and <b>LED_R</b>: Define the pins for the green and red LEDs.<br>
+<b>BUZZER</b>: Define the pin for the buzzer.<br>
+<b>RELAY</b>: Define the pin for the relay.<br>
+<b>Btn</b>: Define the pin for the push-button switch.<br>
+<b>content.substring(1)</b>: Change the UID value to match the RFID card/tag that should be granted access.
 </p>
